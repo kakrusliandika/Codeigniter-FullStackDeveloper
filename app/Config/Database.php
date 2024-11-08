@@ -24,12 +24,13 @@ class Database extends Config
      *
      * @var array<string, mixed>
      */
+
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => '',
+        'username'     => 'root',
         'password'     => '',
-        'database'     => '',
+        'database'     => 'codeigniter_fullstackdeveloper',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
@@ -49,6 +50,32 @@ class Database extends Config
             'time'     => 'H:i:s',
         ],
     ];
+
+    // public array $default = [
+    //     'DSN'          => '',
+    //     'hostname'     => env('database.default.hostname', 'localhost'),
+    //     'username'     => env('database.default.username', 'root'),
+    //     'password'     => env('database.default.password', ''),
+    //     'database'     => env('database.default.database', 'codeigniter_fullstackdeveloper'),
+    //     'DBDriver'     => env('database.default.DBDriver', 'MySQLi'),
+    //     'DBPrefix'     => env('database.default.DBPrefix', ''),
+    //     'pConnect'     => false,
+    //     'DBDebug'      => true,
+    //     'charset'      => env('database.default.charset', 'utf8mb4'),
+    //     'DBCollat'     => env('database.default.DBCollat', 'utf8mb4_general_ci'),
+    //     'swapPre'      => '',
+    //     'encrypt'      => false,
+    //     'compress'     => false,
+    //     'strictOn'     => false,
+    //     'failover'     => [],
+    //     'port'         => env('database.default.port', 3306),
+    //     'numberNative' => false,
+    //     'dateFormat'   => [
+    //         'date'     => 'Y-m-d',
+    //         'datetime' => 'Y-m-d H:i:s',
+    //         'time'     => 'H:i:s',
+    //     ],
+    // ];
 
     //    /**
     //     * Sample database connection for SQLite3.
