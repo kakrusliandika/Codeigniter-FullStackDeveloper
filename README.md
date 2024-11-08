@@ -1,6 +1,6 @@
 ## CodeIgniter 4 Default Setup
 
-This setup is intended as a basic starting point for cloning a Laravel project, reducing the need for additional npm installations.  
+This setup is intended as a basic starting point for cloning a Codeigniter project, reducing the need for additional npm installations.  
 
 ### Features:
 - Codeigniter 4 (without an admin panel) - 8 November 2024
